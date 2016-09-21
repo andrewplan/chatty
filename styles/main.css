@@ -31,6 +31,28 @@ body {
   border-top: 1px solid #e5e5e5;
 }
 
+.message-wrapper {
+  margin-top: 1.5em;
+  padding: 0 2em;
+  display: flex;
+}
+
+.message-left-side-wrapper {
+  float: left;
+  width: 5em;
+}
+
+.message-right-side-wrapper {
+  float: left;
+  margin-left: 5em;
+  text-align: right;
+}
+
+.avatar {
+  width: 4em;
+  height: auto;
+}
+
 /* Customize container */
 @media (min-width: 768px) {
   .container {
